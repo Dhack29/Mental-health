@@ -1,0 +1,135 @@
+#page-header{
+    background-image: url("WhatsApp\ Image\ 2024-04-14\ at\ 13.09.15_dc1db0c8.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 80% 70%;
+    height:60vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding:40px;
+
+}
+#pageination{
+    text-align:center;  
+}
+#pageination a{
+    text-decoration:none;
+    background-color:#088178;
+    padding:20px 25px;
+    border-radius:4px;
+    color:white;
+    font-weight:600;
+    font-size:20px;
+}
+#pageination a i{
+    font-size: 16px;
+    font-weight:600;
+}
+.container{
+   border: 2px solid black ;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   border-radius: 8px;
+   /* height: 250px; */
+   height: fit-content;
+   width: 90%;
+   margin-left: 5%;
+   font-size: 20px;
+   font-weight: 600;
+}
+#questionBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.options{
+    margin-top: 20px;
+    margin-left: 25%;
+}
+#submit{
+    margin-top: 17px;
+    margin-left: 48%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: rgb(27, 24, 108);
+    color: white;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+#submit:hover {
+    transform: scale(1.1); /* Zoom effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Black shadow */
+}
+
+/*single produxt */
+#prodetails{
+    width:80%;
+    margin-right:50px;
+}
+#mainimg{
+    height:52vh;
+    margin-bottom:20px;
+}
+.small-img-group{
+    display:flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis:24%;
+    cursor:pointer;
+}
+
+#prodetails{
+    display:flex;
+    margin-top:20px;
+   
+}
+#prodetails .single-pro-details{
+    width:auto;
+    padding-top:30px;
+    margin-left:30px;
+}
+#prodetails .single-pro-details h6{
+    font-size:17px;
+}
+#prodetails .single-pro-details h4{
+    padding:40px 0 20px 0;
+    font-size:35px;
+}
+#prodetails .single-pro-details h2{
+    font-size:27px;
+}
+#prodetails .single-pro-details select{
+    display:block;
+    padding:5px 10px;
+    margin-bottom:10px;
+    font-size:18px;
+    height:50px;
+}
+#prodetails .single-pro-details input{
+    width:50px;
+    height:50px;
+    padding-left:10px;
+    font-size:18px;
+    margin-right:10px;
+}
+#prodetails .single-pro-details button{
+    background-color: #088178;
+    color:#fff;
+}
+#prodetails .single-pro-details input:focus{
+    outline:none;
+}
+#prodetails .single-pro-details select:focus{
+    outline:none;
+}
+#prodetails .single-pro-details span{
+    line-height:25px;
+    font-size:23px;
+    font-weight: 400;
+}

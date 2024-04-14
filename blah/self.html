@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chic e-commerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <section id="header">
+        <a href="#"><p class="logo" >Chic </p> </a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html" class="active">Self-Assesment</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+           
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h1>#Mind assesment</h1><br>
+        <h4>Save  more  with  coupons  &  up  to "Assessing minds, nurturing wellness, shaping futures."<br> <b style="font-size:50px;color:#bb160a;"> Do it! </b></h4>
+    </section>
+    
+   <!-- <section id="questions-container">   
+    <div class="que-1">
+       1. Depression Assessment:<br>
+       How often have you felt down, depressed, or hopeless in the past two weeks?<br>
+       <input type="radio" name="que-1" id="opt1" value="Not at all">
+       <label for="opt1">Not at all</label><br>
+
+       <input type="radio" name="que-1" id="opt2" value="Several days">
+       <label for="opt2">Several days</label><br>
+
+       <input type="radio" name="que-1" id="opt3" value="More than half the days">
+       <label for="opt3">More than half the days</label><br>
+
+       <input type="radio" name="que-1" id="opt4" value="Nearly every day">
+       <label for="opt4">Nearly every day</label>
+    </div>
+
+    <div class="que-2">
+        2. Anxiety Assessment:<br>
+        - How often have you felt nervous, anxious, or on edge in the past two weeks?<br>
+        <input type="radio" name="que-2" id="opt1" value="Not at all">
+        <label for="opt1">Not at all</label><br>
+ 
+        <input type="radio" name="que-2" id="opt2" value="Several days">
+        <label for="opt2">Several days</label><br>
+ 
+        <input type="radio" name="que-2" id="opt3" value="More than half the days">
+        <label for="opt3">More than half the days</label><br>
+ 
+        <input type="radio" name="que-2" id="opt4" value="Nearly every day">
+        <label for="opt4">Nearly every day</label>
+     </div>
+
+     <div class="que-3">
+        3. Stress Assessment:<br>
+        - How often have you felt stressed or overwhelmed in the past month?<br>
+        <input type="radio" name="que-3" id="opt1" value="Rarely or never">
+        <label for="opt1">Rarely or never</label><br>
+ 
+        <input type="radio" name="que-3" id="opt2" value="Occasionally">
+        <label for="opt2">Occasionally</label><br>
+ 
+        <input type="radio" name="que-3" id="opt3" value="Frequently">
+        <label for="opt3">Frequently</label><br>
+ 
+        <input type="radio" name="que-3" id="opt4" value="Almost every night">
+        <label for="opt4">Almost every night</label>
+     </div>
+
+     <div class="que-4">
+        4.Sleep Quality Assessment:<br>
+        -How often do you experience difficulty falling asleep or staying asleep?<br>
+        <input type="radio" name="que-4" id="opt1" value="Rarely or never">
+        <label for="opt1">Rarely or never</label><br>
+
+        <input type="radio" name="que-4" id="opt2" value="Occasionally">
+        <label for="opt2">Occasionally</label><br>
+
+        <input type="radio" name="que-4" id="opt3" value="Frequently">
+        <label for="opt3">Frequently</label><br>
+        
+        <input type="radio" name="que-4" id="opt4" value="Almost every night">
+        <label for="opt4">Almost every night</label>
+     </div>
+
+     <div class="que-5">
+        5.Social Functioning Assessment:<br>
+        -How often do you feel isolated or disconnected from others?<br>
+        <input type="radio" name="que-5" id="opt1" value="Rarely or never">
+        <label for="opt1">Rarely or never</label><br>
+
+        <input type="radio" name="que-5" id="opt2" value="Occasionally">
+        <label for="opt2">Occasionally</label><br>
+
+        <input type="radio" name="que-5" id="opt3" value="Frequently">
+        <label for="opt3">Frequently</label><br>
+        
+        <input type="radio" name="que-5" id="opt4" value="Almost constantly">
+        <label for="opt4">Almost constantly</label>
+     </div>
+
+     <div class="que-6">
+        6. Substance Use Assessment:<br>
+        - How often do you consume alcohol or drugs to cope with stress or emotions?<br>
+        <input type="radio" name="que-6" id="opt1" value="Never">
+        <label for="opt1">Never</label><br>
+
+        <input type="radio" name="que-6" id="opt2" value="Rarely">
+        <label for="opt2">Rarely</label><br>
+
+        <input type="radio" name="que-6" id="opt3" value="Occasionally">
+        <label for="opt3">Occasionally</label><br>
+        
+        <input type="radio" name="que-6" id="opt4" value="Frequently">
+        <label for="opt4">Frequently</label>
+     </div>
+
+     <div class="que-7">
+        7. Self-Esteem Assessment:<br>
+        - How would you rate your overall self-esteem?<br>
+        <input type="radio" name="que-7" id="opt1" value="High">
+        <label for="opt1">High</label><br>
+
+        <input type="radio" name="que-7" id="opt2" value="Moderate">
+        <label for="opt2">Moderate</label><br>
+
+        <input type="radio" name="que-7" id="opt3" value="Low">
+        <label for="opt3">Low</label><br>
+        
+        <input type="radio" name="que-7" id="opt4" value="Very low">
+        <label for="opt4">Very low</label>
+     </div>
+
+     <div class="que-8">
+        8. Mood Swings Assessment:<br>
+        - How frequently do you experience sudden and intense shifts in mood, such as feeling extremely
+        happy one moment and deeply sad the next?<br>
+        <input type="radio" name="que-8" id="opt1" value="Rarely or never">
+        <label for="opt1">Rarely or never</label><br>
+
+        <input type="radio" name="que-8" id="opt2" value="Occasionally">
+        <label for="opt2">Occasionally</label><br>
+
+        <input type="radio" name="que-8" id="opt3" value="Frequently">
+        <label for="opt3">Frequently</label><br>
+        
+        <input type="radio" name="que-8" id="opt4" value="Almost constantly">
+        <label for="opt4">Almost constantly</label>
+     </div>
+
+     <div class="que-9">
+        9. Suicidal Ideation Assessment:<br>
+        - Have you had thoughts of harming yourself or ending your life in the past month?<br>
+        <input type="radio" name="que-9" id="opt1" value="No">
+        <label for="opt1">No</label><br>
+
+        <input type="radio" name="que-9" id="opt2" value="Rarely">
+        <label for="opt2">Rarely</label><br>
+
+        <input type="radio" name="que-9" id="opt3" value="Occasionally">
+        <label for="opt3">Occasionally</label><br>
+        
+        <input type="radio" name="que-9" id="opt4" value="Frequently">
+        <label for="opt4">Frequently</label>
+     </div>
+
+     <div class="que-10">
+        10. Cognitive Functioning Assessment:<br>
+        - How often do you struggle with concentration, memory, or decision-making?<br>
+        <input type="radio" name="que-10" id="opt1" value="Rarely or never">
+        <label for="opt1">Rarely or never</label><br>
+
+        <input type="radio" name="que-10" id="opt2" value="Occasionally">
+        <label for="opt2">Occasionally</label><br>
+
+        <input type="radio" name="que-10" id="opt3" value="Frequently">
+        <label for="opt3">Frequently</label><br>
+        
+        <input type="radio" name="que-10" id="opt4" value="Almost constantly">
+        <label for="opt4">Almost constantly</label>
+     </div>
+
+     <div class="que-11">
+        11. Physical Health Impact Assessment:<br>
+        - How much does your mental health impact your physical well-being, such as experiencing
+headaches, digestive issues, or other somatic symptoms?<br>
+        <input type="radio" name="que-11" id="opt1" value="Not at all">
+        <label for="opt1">Not at all</label><br>
+
+        <input type="radio" name="que-11" id="opt2" value="Mildly">
+        <label for="opt2">Mildly</label><br>
+
+        <input type="radio" name="que-11" id="opt3" value="Moderately">
+        <label for="opt3">Moderately</label><br>
+        
+        <input type="radio" name="que-9" id="opt4" value="Severely">
+        <label for="opt4">Severely</label>
+     </div>
+
+     <div class="que-12">
+        12. Work/School Performance Assessment:<br>
+        - How has your mental health affected your performance at work or school in the past month?<br>
+        <input type="radio" name="que-9" id="opt1" value=" Not at all">
+        <label for="opt1"> Not at all</label><br>
+
+        <input type="radio" name="que-9" id="opt2" value="Slightly">
+        <label for="opt2">Slightly</label><br>
+
+        <input type="radio" name="que-9" id="opt3" value="Moderately">
+        <label for="opt3">Moderately</label><br>
+        
+        <input type="radio" name="que-9" id="opt4" value="Significantly">
+        <label for="opt4">Significantly</label>
+     </div>
+
+   </section> -->
+    <!-- <section id="pageination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+    </section> -->
+
+    <div class="container">
+        <div id="questionBox" class="question"></div>
+        <form id="quizForm">
+            <div class="options"></div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+    
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newtext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates about our latest tips and <span>be updated</span>.</p>
+        </div>
+        <div class="form">
+            <input type="text " placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+     
+    <p class="logo" style="text-align:center">Chic</p>
+
+    <footer class="section-p1">
+        <div class="col" class="add">
+            <h4>Contact</h4>
+            <p><span>Address</span> MAIT, Delhi, INDIA</p>
+            <p><span>Phone:</span>0156623456/(+91)0123452 2890</p>
+            <!-- <p><span>hours:</span>10:00-18:00,Mon-Fri</p> -->
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col " >
+            <h4>About</h4>
+            <a href="#" >About Us</a>
+            <a href="#" >Our product</a>
+            <a href="#" >Policy Privacy</a>
+            <a href="#" >Terms & Conditions</a>
+            <a href="#" >Contact Us</a>
+        </div>
+
+        <div class="col" >
+            <h4>My account</h4>
+            <a href="#" >Sign In</a>
+            <a href="#" >View Activities</a>
+            <!-- <a href="#" >My Wishlist</a> -->
+            <a href="#" >Track your performance</a>
+            <a href="#" >Help</a>
+        </div>
+
+        <!-- <div class="col install" >
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <a href="#"><img src="img/play.jpg" alt=""> </a>
+                <a href="#"><img src="img/app.jpg" alt=""></a>
+            </div>
+            <p>Secured Payment Gateways</p>
+            <a href="#"><img src="img/pay.png" alt=""></a>
+        </div> -->
+    </footer>
+    <div class="copyright">
+        <p>	&#169; 2024 ,HackerSpace Mental health check-up website</p>
+    </div>
+  
+
+
+    <script src="script.js"></script>
+    <!-- question k liye h -->
+</body>
+</html>
